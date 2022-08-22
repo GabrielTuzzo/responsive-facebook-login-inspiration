@@ -164,7 +164,7 @@ p > a:hover {
     margin-left: 34%;
   }
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 560px) {
   .container {
     grid-template-columns: 1.3fr;
   }
@@ -188,10 +188,17 @@ p > a:hover {
     margin-bottom: -2.6rem;
   }
   body {
-    padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-right: 3.5%;
+    padding-left: 3.5%;
+  }
+}
+@media screen and (max-width: 545px) {
+  #enviar {
+    width: 97.5%;
+    margin-left: 0rem;
   }
 }
 @media screen and (max-width: 530px) {
@@ -199,30 +206,44 @@ p > a:hover {
     margin-left: 32%;
   }
 }
-@media screen and (max-width: 490px) {
-  #new_account { 
-    margin-left: 32%;
-  }
+@media screen and (max-width: 510px) {
   #enviar {
     width: 98%;
+  }
+}
+@media screen and (max-width: 490px) {
+  #new_account { 
+    margin-left: 31%;
+  }
+  #enviar {
+    width: 98.3%;
   }
 }
 @media screen and (max-width: 470px) {
   #new_account { 
     margin-left: 30%;
   }
+  #enviar {
+    width: 98.5%;
+  }
+}
+@media screen and (max-width: 447px) {
+  #enviar {
+    width: 99%;
+  }
+  #new_account { 
+    margin-left: 29%;
+  }
 }
 @media screen and (max-width: 435px) {
   #enviar {
     width: 99%;
   }
-}
-@media screen and (max-width: 410px) {
   #new_account { 
     margin-left: 28%;
   }
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 420px) {
   #enviar {
     width: 99.5%;
   }
@@ -230,54 +251,95 @@ p > a:hover {
     margin-left: 27%;
   }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 410px) {
+  #new_account { 
+    margin-left: 28%;
+  }
   #enviar {
     width: 100%;
+  }
+}
+@media screen and (max-width: 395px) {
+  #enviar {
+    width: 101%;
   }
   #new_account { 
     margin-left: 26%;
   }
 }
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 376px) {
   #enviar {
-    width: 101%;
+    width: 101.5%;
+  }
+  #new_account { 
+    margin-left: 25%;
   }
 }
-@media screen and (max-width: 325px) {
+@media screen and (max-width: 360px) {
   #enviar {
     width: 102%;
   }
   #new_account { 
-    margin-left: 24.5%;
+    margin-left: 24%;
   }
 }
-@media screen and (max-width: 305px) {
-  #enviar {
-    width: 103%;
+@media screen and (max-width: 340px) {
+  form {
+    padding: 16px 16px 24px 12px;
   }
   #new_account { 
-    margin-left: 23%;
+    margin-left: 22%;
   }
-}
-@media screen and (max-width: 285px) {
+} 
+@media screen and (max-width: 325px) {
   #enviar {
-    width: 104%;
+    width: 103%;
   }
   #new_account { 
     margin-left: 21%;
   }
 }
-@media screen and (max-width: 265px) {
+@media screen and (max-width: 305px) {
+  #enviar {
+    width: 104%;
+  }
+  #new_account { 
+    margin-left: 20%;
+  }
+  form {
+    padding: 16px 16px 24px 8px;
+  }
+}
+@media screen and (max-width: 285px) {
   #enviar {
     width: 105%;
   }
   #new_account { 
+    margin-left: 19%;
+  }
+  form {
+    padding: 10px 16px 10px 6px;
+  }
+}
+@media screen and (max-width: 275px) {
+  #new_account { 
     margin-left: 16%;
   }
 }
-@media screen and (max-width: 245px) {
+@media screen and (max-width: 265px) {
   #enviar {
     width: 106%;
+  }
+  #new_account { 
+    margin-left: 16%;
+  }
+  form {
+    padding: 16px 16px 24px 3px;
+  }
+}
+@media screen and (max-width: 255px) {
+  #enviar {
+    width: 107%;
   }
   #new_account { 
     margin-left: 15%;
